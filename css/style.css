@@ -1,0 +1,72 @@
+.content1210{
+    width: 1210px;
+    margin: 0 auto;
+}
+.nav{
+    height: 36px;
+    border: 1px solid #dfdfdf;
+    background: #fafafa;
+    font-size: 12px;
+    font-family:inherit;
+}
+.nav .navL{
+    float: left;
+}
+
+.nav .navL .bj{
+    padding-left: 0;
+}
+.nav .navL .cs:hover{
+    background-color: white;
+    border: 1px solid #dfdfdf;
+}
+.nav .navL .bj span{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    padding-right: 10px;
+    /*margin-right: 12px;*/
+    border-right: 1px solid #dfdfdf;
+    color: #8c8c8c;
+}
+.nav .navR li,.nav .navL li{
+    float: left;
+    padding-top: 12px;
+    height: 24px;
+    padding-left: 12px;
+}
+.nav .navL a{
+    color: #8c8c8c;
+}
+.nav .navL li a span,.nav .navR li a span{
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 10px;
+    height: 8px;
+    background: url("../images/jt.png") no-repeat;
+}
+.nav .navL li a:hover span,.nav .navR li a:hover span{
+    -webkit-transform: rotate(180deg); ;
+}
+.nav .navR{
+    float: right;
+}
+
+.nav .navR li a{
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    padding-right: 10px;
+    /*margin-right: 12px;*/
+    border-right: 1px solid #dfdfdf;
+    color: #8c8c8c;
+}
+.nav .navR li a.sc{
+    border: none;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.nav .navR li a:hover,.nav .navL li a:hover{
+    color: #73adc9;
+}
